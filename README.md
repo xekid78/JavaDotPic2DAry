@@ -1,4 +1,4 @@
-# JavaDotPictureDisplayUsingTwoDimensionalArray
+# JavaDotPicture2DArray
 二次元配列を使ったドット絵表示
 
 ## 処理
@@ -10,12 +10,12 @@ public class sample17 {
 
 	public static void main(String[] args) {
 		int[][] letterA =
-            {{0,0,1,1,0,0},
-             {0,1,0,0,1,0},
-             {1,0,0,0,0,1},
-             {1,1,1,1,1,1},
-             {1,0,0,0,0,1},
-             {1,0,0,0,0,1}};
+       		 {{0,0,1,1,0,0},
+            	 {0,1,0,0,1,0},
+             	{1,0,0,0,0,1},
+             	{1,1,1,1,1,1},
+             	{1,0,0,0,0,1},
+             	{1,0,0,0,0,1}};
 
 		for (int[] line : letterA) {
 			for (int dot : line) {
