@@ -1,4 +1,4 @@
-# JavaDotPicture2DArray
+# JavaDotPic2DAry
 二次元配列を使ったドット絵表示
 
 ## 処理
